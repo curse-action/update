@@ -1,0 +1,14 @@
+name: Update libs
+description: Update Ace3
+author: Dencer
+inputs:
+  root:
+    description: 'Root directory of the libs'
+    required: true
+    default: Libs
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  color: 'blue'
+  icon: 'play'
