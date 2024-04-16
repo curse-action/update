@@ -1,11 +1,10 @@
-name: Update libs
-description: Update Ace3
+name: Update remote
+description: Update remote files
 author: Dencer
-inputs:
-  root:
-    description: 'Root directory of the libs'
+env:
+  CURSEFORGE_API_KEY:
+    description: Curseforge api key
     required: true
-    default: Libs
 runs:
   using: 'node20'
   main: 'index.js'
