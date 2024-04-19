@@ -1,12 +1,11 @@
 name: Update remote
 description: Update remote files
 author: Dencer
-env:
-  CURSE_FORGE_TOKEN:
-    description: Curseforge token
 inputs:
   curse-forge-token:
     description: Curseforge token
+  github-token:
+    description: Github token
 runs:
   using: 'node20'
   main: 'index.js'
